@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+    padding: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+#message {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    color: #111;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 1;
+}
+#message2 {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 10px;
+    left: 0;
+    color: #111;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+img#box {
+    display: block;
+    height: 750px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 5px;
+        padding: 5px;
+    }
+    img#box {
+        display: block;
+        height: 350px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: opacity 3s ease;
+        opacity: 1;
+    }
+  }
